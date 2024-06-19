@@ -79,7 +79,7 @@ const EmailSection = () => {
                         <label htmlFor="message" className='text-white block text-sm font-medium mb-2'>Message</label>
                         <textarea name='message' id='message' required
                             className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-                            placeholder="Let&apos;s talk about..." />
+                            placeholder="Let's talk about..." />
                     </div>
                     <button type='submit'
                         className='bg-[#D13ABD] hover:bg-[#921381] text-white font-medium py-2.5 px-2.5 rounded-lg w-full h-10'>
