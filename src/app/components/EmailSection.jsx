@@ -11,7 +11,7 @@ const EmailSection = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError(null); 
+        setError(null);
 
         const data = {
             email: e.target.email.value,
@@ -50,7 +50,7 @@ const EmailSection = () => {
             <div className='z-10'>
                 <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
-                    I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you !!!
+                    I am currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you !!!
                 </p>
                 <div className='socials flex flex-row gap-2'>
                     <Link href="https://github.com/Paridhi-28">
